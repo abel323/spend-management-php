@@ -1,0 +1,76 @@
+body {
+    font-family: arial, helvetica, sans-serif;
+    font-size: 14px;
+}
+
+aside {
+    clear: both;
+    float: left;
+    width: 20%;
+    height: 100%;
+    background-color: #ffcf54;
+}
+
+main {
+    float: left;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: green;
+}
+
+header {
+    background-color: #ffcf54;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid-item {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 5px solid #ff5820;
+    border-radius: 15px;
+    height: 100px;
+    width: 300px;
+}
+
+.grid-item>p {
+    clear: both;
+    float: bottom right;
+}
+
+.grid-item {
+    background-color: rgba(100, 200, 100, 0.5);
+}
+
+input,
+select {
+    float: left;
+    margin: 10px 10px 10px 10px;
+}
+
+td {
+    text-align: right;
+}
+
+table {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+th {
+    background-color: rgb(100, 200, 100);
+    color: white;
+    font-size: 20px;
+}
